@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   conn.sendFile(
     m.chat,
     vidBuffer,
-    `error.mp4`,
+    `Alexa.mp4`,
     caption,
     m,
     false,
