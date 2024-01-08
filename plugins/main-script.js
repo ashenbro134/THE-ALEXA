@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/Guru322/GURU-BOT';
+  const githubRepoURL = 'https://github.com/ashenbro134/THE-ALEXA/tree/main';
 
   try {
   
@@ -21,7 +21,7 @@ let handler = async function (m, { conn, __dirname }) {
 👤 Owner: ${repoData.owner.login}
 ⭐ Stars: ${repoData.stargazers_count}
 🍴 Forks: ${repoData.forks_count}
-🌐 URL: ${repoData.html_url}
+🌐 URL: 𝘾𝙊𝙈𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉
       `.trim();
 
       // Send the formatted information as a message
@@ -52,3 +52,4 @@ handler.tags = ['main'];
 handler.command = ['sc', 'repo', 'script'];
 
 export default handler;
+
