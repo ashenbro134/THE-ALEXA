@@ -1,7 +1,7 @@
 import displayLoadingScreen from '../lib/loading.js'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-let pp = 'https://i.pinimg.com/736x/eb/a7/25/eba725b9c8df5d9b199e950694f18aaf.jpg'
+let pp = 'https://i.imgur.com/qi1eMJu.jpg'
 await displayLoadingScreen(conn, m.chat)
 	let _muptime
     if (process.send) {
@@ -29,7 +29,7 @@ await displayLoadingScreen(conn, m.chat)
       title: "ᴛʜᴇ ᴀʟᴇxᴀ-ʙᴏᴛ",
       body: "R U N T I M E",
       thumbnailUrl: pp,
-      sourceUrl: 'https://guruapi.tech',
+      sourceUrl: 'https://whatsapp.com/channel/0029VaJzT95GufItCPxY9o3h',
       mediaType: 1,
       renderLargerThumbnail: false
       }}})
@@ -44,5 +44,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [d, 'd ', h, 'h ', m, 'm ', s, 's '].map(v => v.toString().padStart(2, 0)).join('')
+  return [d, '𝘿 ', h, '𝙃 ', m, '𝙈 ', s, '𝙎 '].map(v => v.toString().padStart(2, 0)).join('')
 }
