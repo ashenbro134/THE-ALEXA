@@ -65,11 +65,7 @@ let handler = async m => m.reply(`
 
 `
 
-let pp = './src/alexa_logo.jpg' 
-    conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl)
-    m.react('💝') 
-}
-
+let pp = './src/alexa_logo.jpg'
 .trim())
 handler.help = ['menu']
 handler.tags = ['main']
