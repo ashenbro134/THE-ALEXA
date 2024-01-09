@@ -26,4 +26,3 @@ handler.command = ['google', 'googlef']
 handler.diamond = false
 
 export default handler
-
